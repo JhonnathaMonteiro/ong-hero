@@ -1,13 +1,12 @@
-import 'intl';
-import 'intl/locale-data/jsonp/pt-BR';
+import "intl";
+import "intl/locale-data/jsonp/pt-BR";
 
-import React from 'react';
+// FIX THE IP UNDER DEVELOPMENT INTO API.JS
 
-import Routes from './src/routes';
+import React from "react";
+
+import Routes from "./src/routes";
 
 export default function App() {
-  return (
-    <Routes />
-  );
+  return <Routes />;
 }
-
