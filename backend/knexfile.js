@@ -2,6 +2,7 @@
 
 module.exports = {
 
+  // try postgress 
   development: {
     client: 'sqlite3',
     connection: {
